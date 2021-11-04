@@ -1,0 +1,31 @@
+/* 
+Normalmente o tamanho da font padrão do navegador é de 16px e para mudar esse valor temos que fazer a alteração no root ou no elemento html.
+
+O viewport é a parte da tela que está sendo exibida. No caso dos navegadores web, é o que é exibido na janela/tela do documento. Conteúdos que estão fora do viewport só serão exibidos quando feito um scroll da área de visualização.
+
+ */
+:root {
+	font-size: 18px;
+}
+
+/* OU */
+
+html {
+	font-size: 18px;
+}
+
+/*Porcentagens: */
+
+li {
+    font-size: 80%;
+}
+
+.box {
+	/*Funcoes: */
+	height: calc(100% - 40px); 
+	width: 100%px; 
+	background-image: url(http://source.unsplash.com/random);
+	background-repeat: no-repeat;
+	/*Position: */
+	position: center 50px;
+}

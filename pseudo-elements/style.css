@@ -1,0 +1,28 @@
+/*----- PSEUDO-ELEMENTS -----*/
+li {
+    position: relative;
+}
+/*::before*/
+li::before {
+    content: "b#";
+}
+
+/*::after*/
+ul li::after{
+    content: "#a";
+    background-color: blue;
+    position: absolute;
+    bottom:0px;
+    width: 10px;
+    height: 1px;
+}
+
+/*::first-line*/
+p::first-line{
+    color:rgb(234, 127, 255);
+}
+
+/*AGRUPANDO UM PSEUDO-ELEMENTS + PSEUDOCLASSES*/
+p:nth-of-type(2)::first-line{
+    color:aquamarine;
+}

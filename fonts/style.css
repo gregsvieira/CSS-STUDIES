@@ -1,0 +1,26 @@
+p {
+    font-family: "Times New Roman", Times, serif;
+	font-weight: bolder;
+    font-style: italic;
+    font-size: 22px;
+    font-family: 'Noto Sans Mono', monospace;
+    letter-spacing: 1em;
+    text-decoration: wavy underline overline blue;
+    text-align: justify;
+
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+
+h6 {
+    font-size: 22px;
+font-variant: small-caps;
+font-stretch: expanded;
+word-spacing: 1em;
+line-height: 2.8;
+text-transform: capitalize;
+text-shadow: 5px 5px 10px rgb(0, 110, 255);
+
+}
+

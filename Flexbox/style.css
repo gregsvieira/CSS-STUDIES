@@ -1,0 +1,65 @@
+/* FLEXBOX */
+.flexbox{
+    display:flex;
+}
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 80vh;
+}
+.box{
+    display: flex;
+    border: 1px dashed red;
+    /*flex-wrap: wrap; Ele cria novas linhas se há necessidade, criando assim o layout responsivo*/
+    /*flex-flow: row wrap-reverse;*/
+    justify-content: center;  /*flex-start | flex-end | center | space-around | space-between | space-evenly*/
+    align-items: center;
+    gap: 4px; 
+    /*flex-direction: column;  
+    height: 180px;*/
+   
+}
+.box div{
+    border: 1px solid;
+    width: 285px;
+    /*flex-basis: 100%;*/
+    flex: 1 1 0;
+    
+}
+
+.box div:nth-child(1){
+    /*flex-grow: 2; Pega duas frações do espaço vazio*/
+
+}
+.box div:nth-child(2),.box div:nth-child(4){
+    /*flex-grow: 1; Pega uma fração do espaço que sobrou e divide entre os dois*/
+  /*flex-shrink: 0;*/
+}
+
+.box2{
+    display: flex;
+    border: 1px dashed red;
+    height: 50px;
+  
+   
+}
+.box2 div{
+    border: 1px solid;
+   
+    
+}
+
+.box2 div:nth-child(1){
+   order: 0;
+
+}
+.box2 div:nth-child(2){
+    order: 1;
+}
+
+.box2 div:nth-child(3){
+    order: 2;
+}
+.box2 div:nth-child(4){
+    order: -1;
+}

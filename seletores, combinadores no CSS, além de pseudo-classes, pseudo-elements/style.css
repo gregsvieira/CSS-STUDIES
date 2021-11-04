@@ -1,0 +1,66 @@
+/* Element Selector */
+h1 {
+	color: blue;
+	font-size: 60px;
+}
+
+p {
+	color: green;
+}
+
+/* ID Selector */
+#subtitle{
+    color: yellow;
+}
+#content{
+    color: orange;
+}
+
+/* Class Selector */
+.red {
+    color: red;
+    }
+    
+    .big {
+        font-size: 3em;
+    }
+
+/* Attribute Selector */
+    [title] {
+        color: orange;
+    }
+
+/* Pseudo-Class Selector */
+p:hover{
+    color: red;
+}
+h5:hover{
+    color: red;
+}
+
+/* Multiple Selector */
+h6, p, .title, .title:hover {
+	color: red;
+}
+
+/* -------- Combinators -------- */
+
+/* Descendent Combinators */
+body article h2 {
+	color: red;
+}
+/* Child Combinators */
+body > ul > li {
+	color: blue;
+}
+
+/*Adjacent Sibling Combinators */
+button + button {
+	color: red;
+    margin: 32px;
+}
+
+/*General Sibling Combinators */
+h1 ~ p {
+	color: red;
+}

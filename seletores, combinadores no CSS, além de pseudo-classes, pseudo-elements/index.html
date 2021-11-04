@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <!---Element Selector-->
+    <h1>Element Selector</h1>
+<p>Conteúdo editado pelo element. CSS: h1</p>
+
+    <!---ID Selector-->
+<h2 id="subtitle">ID Selector</h2>
+<p id="content">Conteúdo editado pelo id, CSS: #h2</p>
+
+    <!---Class Selector-->
+<h3 class="red big">Class Selector</h3>
+<p class="red big">Conteúdo editado pela class, CSS: .h3</p>
+
+    <!---Attribute Selector-->
+<h4 title="Attribute">Attribute Selector</h4>
+<p title="Conteúdo Attribute">Conteúdo editado pelo Attribute, CSS: [title]</p>
+
+    <!---Pseudo-class Selector-->
+<h5 class="red big">Pseudo-Class Selector</h5>
+<p class="red big">Elementos editados em um estado especifico. CSS: h5:before - h5:after / p:hover</p>
+
+    <!---Multiple Selector-->
+    <h6 class="red big">Pseudo-Class Selector</h6>
+    <p class="red big">Elementos editados em um estado especifico. CSS: h5:before - h5:after / p:hover</p>
+
+<!---Combinators-->
+
+    <!--- Descendent Combinators-->
+     <!---body que antecede-->
+    <article>
+		<h2>Um Título</h2>
+	</article>
+    <!---/body-->
+
+    <!--- Child Combinators-->
+    <ul>
+        <li>Item 1</li>
+        <ul>
+ <!--- Esse será desconsiderado por não ser o próximo direto da sequencia Child Combinators-->
+          <li>Item 2</li>
+        </ul>
+      </ul>
+
+    <!---Adjacent Sibling Combinators-->
+    Ajacent Sibling Combinators<br>
+      <button>Botão</button><button>Outro botão</button>
+
+        <!---General Sibling Combinators-->
+        <h1>
+            Título
+          </h1>
+          <p>
+            Esse é um parágrafo
+          </p>
+          <p>
+            Mais um parágrafo
+          </p>
+</body>
+</html>

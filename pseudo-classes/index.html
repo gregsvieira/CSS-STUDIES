@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PSEUDO-CLASSES</h1>
+    <!---First Child-->
+    <ul>First Child:
+<!---Se aqui existir algum outro filho, 
+    li deixará de ser first-child e o css não aplicará, 
+    e de qualquer forma não se deve existir outro elemento nessa lista sem ser li
+    Ex:
+    <h3>Primeiro elemento antes do first-child</h3>
+-->
+    <li>Primeiro li</li>
+    <li>Segundo li</li>
+    <li>Terceiro li</li>
+</ul>
+   <!---   nth-of-type   -->
+<article>
+    <h3>NTH-OF-TYPE</h3>
+    <p>Paragráfo 1</p>
+    <p>Paragráfo 2</p>
+    <p>Paragráfo 3</p>
+</article>
+
+   <!---   nht-child   -->
+   <article>
+    <h2>NTH-CHILD</h2>
+    <p>Paragráfo 1</p>
+    <p>Paragráfo 2</p>
+    <p>Paragráfo 3</p>
+</article>
+
+  <!---   nht-child odd e even   -->
+  <text>
+    <h1>NTH-CHILD ODD & EVEN</h1>
+    <p>Paragráfo 1</p>
+    <p>Paragráfo 2</p>
+    <p>Paragráfo 3</p>
+    <p>Paragráfo 4</p>
+    <p>Paragráfo 5</p>
+    <p>Paragráfo 6</p>
+    <p>Paragráfo 7</p>
+    <p>Paragráfo 8</p>
+  </text>
+  <!---   Ações do usuário   -->
+
+  <h1>AÇÕES DO USUÁRIO</h1>
+    <!---   :hover   -->
+  <a href ="#">:hover (click aqui)</a>
+<br><br><br><br>
+    <!---   :focus   -->
+<h3>:FOCUS</h3>
+  <input type="text">
+  <br><br>
+
+    <!---   Atributos   -->
+  <h1>ATRIBUTOS</h1>
+ <!---   :disable   -->
+ <h2>:disabled</h2>
+ <input type="text" disabled>
+ <br><br>
+
+<!---   :required   -->
+<h2>:required</h2>
+ <input type="text" required>
+ <br><br>
+
+
+</body>
+</html>

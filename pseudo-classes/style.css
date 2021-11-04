@@ -1,0 +1,56 @@
+/*----- PSEUDO-CLASSES -----*/
+
+/*First Child*/
+ul li:first-child {
+    font-weight: bold;
+    color: red;
+}
+
+/*nth-of-type*/
+article h3:nth-of-type(1) {
+    font-weight: bold;
+    color: red;
+}
+
+/*nth-child*/
+article h2:nth-child(1) {
+    font-weight: bold;
+    color: red;
+}
+
+/*nth-child odd & even*/
+text p:nth-child(odd) {
+    background: #eee;
+    color: black;
+}
+text p:nth-child(even) {
+    color: gray;
+}
+
+/*----- AÇÕES DO USUÁRIO -----*/
+
+
+/*:hover*/
+
+a:hover {
+    font-size: 40px;
+        color: red;
+  }
+
+/*:focus*/
+input:focus {
+    border-color: blue;
+    outline: none;
+    background-color:aqua;
+}
+
+/*----- ATRIBUTOS -----*/
+/*:disabled*/
+
+input:disabled{
+    background-color: gray;
+}
+input:required{
+    color: white;
+    background-color: rgb(61, 14, 14);
+}
